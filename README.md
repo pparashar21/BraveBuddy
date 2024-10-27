@@ -46,7 +46,12 @@ BraveBuddy aims to:
 2. Install Dependencies
   - Navigate to the project directory in your shell/terminal.
   - Run: pip install -r requirements.txt
-3. Run the Application
+3. Set Up Environment Variables
+  To enable BraveBuddy’s AI functionality, you’ll need to add an .env file in the project’s root directory with the OpenAI API key for GPT-4 mini.
+  - Create a .env file in the root directory.
+  - Add the following line, replacing YOUR_OPENAI_API_KEY with your actual OpenAI API key:
+    OPENAI_API_KEY=YOUR_OPENAI_API_KEY
+4. Run the Application
   - Execute the main script: python main.py
   - For the frontend, run: streamlit run app.py
 
