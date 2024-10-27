@@ -1,0 +1,27 @@
+[
+    {
+        "timestamp": "2024-10-27T09:17:07.432687",
+        "messages": [
+            {
+                "timestamp": "2024-10-27T09:17:19.477977",
+                "user_message": "Hey buddy, how are you doing?",
+                "bot_response": "Hey Aadyant! I'm doing great, thank you! How about you? How's your day going?"
+            },
+            {
+                "timestamp": "2024-10-27T09:17:45.499590",
+                "user_message": "yeah it's been going good so I would like you to set a reminder for me to take my medicines at 28th October 4.30 p.m. and it should be a recurring event",
+                "bot_response": "I can help you with that! Just to double-check, how often do you want the reminder to happen? Daily, weekly, or something else?"
+            },
+            {
+                "timestamp": "2024-10-27T09:18:04.652463",
+                "user_message": "I want it to be set daily.",
+                "bot_response": "Got it! Here\u2019s your reminder:\n\n{'reminder for taking medicines': {'time': '4:30 p.m.', 'frequency': 'daily'}}\n\nNow you'll never forget! How are you feeling today, buddy?"
+            },
+            {
+                "timestamp": "2024-10-27T09:18:19.926004",
+                "user_message": "\u62dc\u62dc",
+                "bot_response": "Pardon? Can you repeat that in English, buddy?"
+            }
+        ]
+    }
+]

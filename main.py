@@ -6,9 +6,9 @@ from voice_interactions import stt_whisper, tts_whisper
 from chat_completion import openai_complete
 
 # File and directory configurations
-USER_INFO_FILE = 'llm/user_info.json'
-LOGS_DIR = 'llm/logs'
-REMINDER_DIR = 'llm/reminder'
+USER_INFO_FILE = 'user_info.json'
+LOGS_DIR = 'logs'
+REMINDER_DIR = 'reminder'
 
 # Ensure the logs directory exists
 os.makedirs(LOGS_DIR, exist_ok=True)
