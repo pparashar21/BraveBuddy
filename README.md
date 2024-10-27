@@ -20,13 +20,12 @@ BraveBuddy aims to:
 
 
 ## Tech Stack used:
-- **Python**
+- **Programming Language:**
+  - Pyton
 - **VA**
   - Openai API: Whisper.ai, GPT 4o mini
-  
 - **Database**
   - mongoDB Atlas -> for database (which helped in eliminating on-premise scaling bcz it is automatically scaled on the cloud)
-
 - **Front end**
   - Streamlit -> You can fire up the front end using the command streamlit run app.py (for future releases)
 
@@ -40,7 +39,7 @@ BraveBuddy aims to:
 - Install all the necessary python libraries using pip install -r requirements.txt
 - Run main.py
 
-** LLM Functionalities: **
+**LLM Functionalities:**
 - Speech-to-Text (STT): The VA can understand and process user voice commands.
 - Text-to-Speech (TTS): Reads out health-related information back to the user in a clear, natural tone.
 - Short, Concise Responses: Provides brief, accurate responses to user queries.
