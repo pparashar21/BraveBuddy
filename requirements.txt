@@ -5,3 +5,7 @@ pyaudio
 pydub
 langchain
 python-dotenv
+requests
+aiohttp
+CFFI
+pydantic
