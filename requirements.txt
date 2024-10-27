@@ -1,0 +1,7 @@
+openai
+sounddevice
+pynput
+pyaudio
+pydub
+langchain
+python-dotenv

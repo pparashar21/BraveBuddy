@@ -1,0 +1,14 @@
+[
+    {
+        "reminder for medicines": {
+            "time": "2:30 pm",
+            "frequency": "every two weeks"
+        }
+    },
+    {
+        "reminder for medicines": {
+            "time": "6:30 pm",
+            "frequency": "daily"
+        }
+    }
+]
