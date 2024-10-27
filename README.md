@@ -19,7 +19,7 @@ BraveBuddy aims to:
   - Create a positive and comforting presence throughout their treatment journey.
 
 
-## Tech Stack used:
+## Tech Stack used
 - **Programming Language:**
   - Pyton
 - **VA**
@@ -29,7 +29,7 @@ BraveBuddy aims to:
 - **Front end**
   - Streamlit -> You can fire up the front end using the command streamlit run app.py (for future releases)
 
-## LLM:
+## LLM
 **LLM setup:**
 
 - Install ffmpeg
