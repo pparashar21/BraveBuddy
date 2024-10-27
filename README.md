@@ -19,19 +19,19 @@ Educate children about their treatment in a comforting way.
 Create a positive and comforting presence throughout their treatment journey.
 
 
-Tech Stack used:
-Python
-VA:
-- Openai API: Whisper.ai, GPT 4o mini
+## Tech Stack used:
+**Python**
+**VA**
+  - Openai API: Whisper.ai, GPT 4o mini
   
-Database
-- mongoDB Atlas - for database (which helped in eliminating on-premise scaling bcz it is automatically scaled on the cloud)
+**Database**
+  - mongoDB Atlas -> for database (which helped in eliminating on-premise scaling bcz it is automatically scaled on the cloud)
 
-Front end
-- Streamlit - You can fire up the front end using the command streamlit run app.py (for future releases)
+**Front end**
+- Streamlit -> You can fire up the front end using the command streamlit run app.py (for future releases)
 
-LLM:
-LLM setup:
+## LLM:
+**LLM setup:**
 
 Install ffmpeg
 Using chocolatey for windows: choco install ffmpeg
@@ -40,7 +40,7 @@ Navigate to in your shell/terminal
 Install all the necessary python libraries using pip install -r requirements.txt
 Run main.py
 
-LLM Functionalities:
+** LLM Functionalities: **
 Speech-to-Text (STT): The VA can understand and process user voice commands.
 Text-to-Speech (TTS): Reads out health-related information back to the user in a clear, natural tone.
 Short, Concise Responses: Provides brief, accurate responses to user queries.
