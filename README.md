@@ -1,4 +1,5 @@
-# BraveBuddy
+# BraveBuddy :teddybear:
+
 Repository for Rutgers Health Hackathon 2024
 
 ## Overview
