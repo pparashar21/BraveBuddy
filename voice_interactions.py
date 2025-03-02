@@ -111,4 +111,3 @@ def tts_whisper(input, voice="nova"):
     audio_data = response.content
     audio_segment = AudioSegment.from_file(io.BytesIO(audio_data), format="mp3")
     play(audio_segment)
-
