@@ -1,13 +1,11 @@
 import json
 import os
-from bravebuddy_assitant.utils.helper import *
-from datetime import timedelta, datetime
-
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-RESPONSES_FILE = os.path.join(BASE_DIR, 'curr_response.json')
+from bravebuddy_assistant.utils.helper import *
+from datetime import datetime
+from bravebuddy_assistant.constants import *
 
 def reminders(username:str, remind:dict) -> None:
-    add_reminder(username, remind)
+    append_reminder(username, remind)
     return
 
 def preferences(username: str, preference_type: str, preference_detail: str, sentiment: str):

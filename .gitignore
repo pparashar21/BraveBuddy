@@ -6,6 +6,9 @@ __pycache__/
 # C extensions
 *.so
 
+.user_response.wav
+user_response.wav
+
 # Distribution / packaging
 .Python
 build/
