@@ -1,7 +1,7 @@
 import json
 import os
 from datetime import datetime
-from voice_interactions import tts_whisper
+from bravebuddy_assitant.components.voice_interactions import tts_whisper
 
 # Base directory is the folder containing this script file (assuming it's in "llm" folder)
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))

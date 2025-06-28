@@ -1,6 +1,6 @@
 import json
 import os
-from helper import *
+from bravebuddy_assitant.utils.helper import *
 from datetime import timedelta, datetime
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))

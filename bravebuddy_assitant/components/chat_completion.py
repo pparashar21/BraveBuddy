@@ -1,9 +1,9 @@
-from voice_interactions import tts_whisper
+from bravebuddy_assitant.components.voice_interactions import tts_whisper
 import openai
 import json
 from dotenv import load_dotenv
-from function_calling import reminders, preferences
-from rag import get_context
+from bravebuddy_assitant.utils.function_calling import reminders, preferences
+from bravebuddy_assitant.components.rag import get_context
 import os
 
 load_dotenv()
