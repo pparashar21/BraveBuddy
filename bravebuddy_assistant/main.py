@@ -1,12 +1,12 @@
 import re
 from datetime import datetime
 from langchain_openai import OpenAIEmbeddings
-from bravebuddy_assitant.components.voice_interactions import stt_whisper, tts_whisper
-from bravebuddy_assitant.components.chat_completion import openai_complete
+from bravebuddy_assistant.components.voice_interactions import stt_whisper, tts_whisper
+from bravebuddy_assistant.components.chat_completion import openai_complete
 # from update_health_question_counter_data import update_health_question_counter, save_user_health_question_counter, load_health_questions
-from bravebuddy_assitant.utils.helper import *
-from bravebuddy_assitant.components.rag import load_vector_db, create_vector_db
-from bravebuddy_assitant.components.emotion_detection import analyze_emotion
+from bravebuddy_assistant.utils.helper import *
+from bravebuddy_assistant.components.rag import load_vector_db, create_vector_db
+from bravebuddy_assistant.components.emotion_detection import analyze_emotion
 
 def main_func():
     user_info = load_user_info()
@@ -32,7 +32,7 @@ def main_func():
         user_info[name] = {'age':age, 'gender':gender, 'language':lang, 'voice':voice}
         save_user_info(user_info)
     else:
-        voice = user_info[name]
+        voice = user_info[name]['voice']
         welcome_back_message = f"Welcome back, {name}! Always so much fun to meet ya kiddo!"
         tts_whisper(welcome_back_message)
 
@@ -59,8 +59,8 @@ def main_func():
     } 
     
     while True:
-        user_message = stt_whisper().strip()
-        # user_message = input()
+        # user_message = stt_whisper().strip()
+        user_message = input()
         
         if user_message.lower() == 'exit':
             print("Ending conversation session.")
@@ -90,7 +90,7 @@ def main_func():
     print(f"Conversation session saved for user '{name}'.")
 
     # Emotion detection for the current session
-    analyze_emotion(current_conversation)
+    analyze_emotion(name, current_conversation)
 
 if __name__ == "__main__":
     main_func()

@@ -8,9 +8,9 @@ import PyPDF2
 import os
 from dotenv import load_dotenv
 import pickle
+from bravebuddy_assistant.constants import *
 
 
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 load_dotenv()
 openai.api_key = os.getenv("OPENAI_API_KEY")
 client = openai.OpenAI()
@@ -41,7 +41,7 @@ def create_vector_db_with_metadata(text_chunks, metadata):
     return vector_db
 
 def create_vector_db(SAVE_DIR):
-    pdf_directory = os.path.join(BASE_DIR, "documents")
+    pdf_directory = os.path.join(BASE_DIR, "documentation/RAG")
     all_chunks = []
     all_metadata = []
 

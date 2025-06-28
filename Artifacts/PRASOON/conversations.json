@@ -1,0 +1,142 @@
+[
+    {
+        "timestamp": "2025-06-28T11:55:25.302036",
+        "messages": [
+            {
+                "timestamp": "2025-06-28T11:55:37.374468",
+                "user_message": "\u0939\u0932\u094d\u0932\u0942",
+                "bot_response": "Oh, hi there! Can you say that again, but in English please?"
+            },
+            {
+                "timestamp": "2025-06-28T11:55:47.119521",
+                "user_message": "\u06c1\u06cc\u0644\u0648",
+                "bot_response": "Oh, hi there! Can you say that again, but in English please?"
+            },
+            {
+                "timestamp": "2025-06-28T11:55:54.297073",
+                "user_message": "Bye-bye.",
+                "bot_response": "See you then kiddo! Always so much fun to meet you."
+            },
+            {
+                "timestamp": "2025-06-28T11:56:02.028058",
+                "user_message": "Thanks.",
+                "bot_response": "You're welcome, Prasoon! How are you feeling today? "
+            },
+            {
+                "timestamp": "2025-06-28T11:56:11.835460",
+                "user_message": "Thanks.",
+                "bot_response": "You're welcome, Prasoon! How are you feeling today? Did you do anything fun?"
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-06-28T12:04:08.527349",
+        "messages": [
+            {
+                "timestamp": "2025-06-28T12:04:22.391000",
+                "user_message": "\u06c1\u06cc\u0644\u0648",
+                "bot_response": "Oh, hi there! Can you say that again, but in English please?"
+            },
+            {
+                "timestamp": "2025-06-28T12:04:31.321696",
+                "user_message": "Bye-bye.",
+                "bot_response": "See you then kiddo! Always so much fun to meet you."
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-06-28T12:07:21.740574",
+        "messages": [
+            {
+                "timestamp": "2025-06-28T12:07:31.637183",
+                "user_message": "HELLO",
+                "bot_response": "Oh, hi there! Can you say that again, but in English please?"
+            },
+            {
+                "timestamp": "2025-06-28T12:07:40.082002",
+                "user_message": "Exit.",
+                "bot_response": "See you then kiddo! Always so much fun to meet you."
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-06-28T12:13:12.736265",
+        "messages": [
+            {
+                "timestamp": "2025-06-28T12:13:21.740814",
+                "user_message": "\u06c1\u06cc\u0644\u0648",
+                "bot_response": "Oh, hi there! Can you say that again, but in English please?"
+            },
+            {
+                "timestamp": "2025-06-28T12:13:30.841022",
+                "user_message": "Exit.",
+                "bot_response": "See you then kiddo! Always so much fun to meet you."
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-06-28T12:16:37.890998",
+        "messages": [
+            {
+                "timestamp": "2025-06-28T12:16:48.026939",
+                "user_message": "hello",
+                "bot_response": "Oh, hi there! Can you say that again, but in English please?"
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-06-28T12:18:01.708231",
+        "messages": [
+            {
+                "timestamp": "2025-06-28T12:18:10.860466",
+                "user_message": "hi",
+                "bot_response": "Oh, hi there! Can you say that again, but in English please?"
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-06-28T12:18:59.466472",
+        "messages": [
+            {
+                "timestamp": "2025-06-28T12:19:07.375087",
+                "user_message": "hi",
+                "bot_response": "Oh, hi there, Prasoon! How are you feeling today? Did you do anything fun?"
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-06-28T12:20:41.730264",
+        "messages": [
+            {
+                "timestamp": "2025-06-28T12:20:58.535602",
+                "user_message": "hi, you are stupdi",
+                "bot_response": "Oh no, Prasoon! That's not a very nice thing to say! But I\u2019m still here to be your Brave Buddy! How are you feeling today? Did you have any fun adventures?"
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-06-28T12:21:54.003169",
+        "messages": [
+            {
+                "timestamp": "2025-06-28T12:22:01.009259",
+                "user_message": "",
+                "bot_response": "Oh, hi there, Prasoon! How are you feeling today? Did you do anything fun?"
+            },
+            {
+                "timestamp": "2025-06-28T12:22:09.846632",
+                "user_message": "hi stupid aexit",
+                "bot_response": "See you then kiddo! Always so much fun to meet you."
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-06-28T12:26:20.273318",
+        "messages": [
+            {
+                "timestamp": "2025-06-28T12:26:37.200983",
+                "user_message": "hi you are stupid",
+                "bot_response": "Oh no, Prasoon! That's not a very nice thing to say! I\u2019m still here to be your Brave Buddy! How are you feeling today? Did you have any fun adventures?"
+            }
+        ]
+    }
+]

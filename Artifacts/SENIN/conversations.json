@@ -1,0 +1,27 @@
+[
+    {
+        "timestamp": "2025-06-28T12:28:11.094680",
+        "messages": [
+            {
+                "timestamp": "2025-06-28T12:28:20.963284",
+                "user_message": "hi",
+                "bot_response": "Hiya, Senin! It\u2019s your Brave Buddy! How are you feeling today?"
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-06-28T12:28:54.598014",
+        "messages": [
+            {
+                "timestamp": "2025-06-28T12:29:25.940513",
+                "user_message": "no body talks to me because i am bald, kids tease me",
+                "bot_response": "Oh, Senin! I know it can be really hard when kids say mean things, but guess what? You\u2019re super special just the way you are! Your bald head is like a superhero helmet! It shows how brave you are. Would you like to hear a fun story about superheroes?"
+            },
+            {
+                "timestamp": "2025-06-28T12:29:35.442727",
+                "user_message": "yes",
+                "bot_response": "Hiya, Senin! It's your Brave Buddy! What's on your mind today? How are you feeling?"
+            }
+        ]
+    }
+]

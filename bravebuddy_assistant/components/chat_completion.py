@@ -1,15 +1,15 @@
-from bravebuddy_assitant.components.voice_interactions import tts_whisper
+from bravebuddy_assistant.components.voice_interactions import tts_whisper
 import openai
 import json
 from dotenv import load_dotenv
-from bravebuddy_assitant.utils.function_calling import reminders, preferences
-from bravebuddy_assitant.components.rag import get_context
+from bravebuddy_assistant.utils.function_calling import reminders, preferences
+from bravebuddy_assistant.components.rag import get_context
+from bravebuddy_assistant.constants import *
 import os
 
 load_dotenv()
 openai.api_key = os.getenv('OPENAI_API_KEY')
 client = openai.OpenAI()
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 def openai_complete(name, user_message, context, vector_db, voice, age, gender, lang):
     tools = [
